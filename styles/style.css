@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Vazir-Medium;
+    src: url(../fonts/Vazir-Medium.eot) format("eot"), url(../fonts/Vazir-Medium.woff) format("woff"), url(../fonts/Vazir-Medium.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Vazir-Medium;
+}
+
+body {
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+    color: #17594a;
+}
+
+li,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.x p {
+    color: red;
+}
+
+ul.accordion {
+    background-color: #efefef;
+    border: 1px solid #ccc;
+}
+
+ul.accordion div {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #a0d8b3;
+}
+
+ul.accordion li {
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #e1ecc8;
+    background-color: #e5f9db;
+}
+
+ul.accordion ul {
+    display: none;
+    padding: 10px;
+}
+
+ul.accordion ul li {
+    padding: 10px;
+}
